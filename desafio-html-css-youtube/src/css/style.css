@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 326px 270px;
+    gap: 20px;
+    top: 52px;
+    position: relative;
+}
+
+.video-destaque img{
+    margin-bottom: 10px;
+}
+
+.video-destaque h2{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.video-destaque p{
+    max-width: 326px;
+    margin-bottom: 10px;
+}
+
+.coluna-videos .propaganda{
+    margin-bottom: 16px;
+}
+
+.coluna-videos .proximos-videos{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.coluna-videos .proximos-videos p{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    margin-left: 4px;
+}
+
+.coluna-videos .proximos-videos ul li{
+    margin-bottom: 5px;
+    margin-left: 4px;
+}

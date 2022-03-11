@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    box-sizing: border-box; 
+    font-family: 'Public Sans', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 45px 44.41px 0;
+    justify-content: space-between;
+}
+
+.id-empresa{
+    display: flex;
+    align-items: center;
+}
+
+.id-empresa .logo{
+    height: 45px;
+    margin-right: 5.59px;
+}
+
+.id-empresa p{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu .sobre{
+    background-color: #5BC241;
+    color: #fff;
+    padding: 11px 6px;
+}
+
+.menu .btn{
+    background-color: #5BC241;
+    color: #fff;
+    padding: 10px 21px;
+    border-radius: 10px;
+}
+
+@media(max-width: 890px){
+    .cabecalho{
+        display: flex;  
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 675px){
+    .cabecalho{
+        display: flex;
+    }
+
+    .id-empresa p{
+        font-size: 40px;   
+    }
+
+    .menu ul li{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 33px;
+    }
+
+    .menu .sobre{
+        padding: 17px 41px;
+    }
+
+    .menu .btn{
+        font-size: 20px;
+    }
+}
