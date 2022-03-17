@@ -9,15 +9,14 @@ main{
     justify-content: center;
     grid-template-columns: 326px 270px;
     gap: 20px;
-    top: 52px;
-    position: relative;
+    margin-top: 30px;
 }
 
 .video-destaque img{
     margin-bottom: 10px;
 }
 
-.video-destaque h2{
+.video-destaque h1{
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -37,14 +36,14 @@ main{
     margin-bottom: 16px;
 }
 
-.coluna-videos .proximos-videos p{
+.proximos-videos .informacoes-video h2{
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 7px;
     margin-left: 4px;
+    margin-bottom: 7px;
 }
 
-.coluna-videos .proximos-videos ul li{
-    margin-bottom: 5px;
+.coluna-videos .proximos-videos .informacoes-video p{
     margin-left: 4px;
+    margin-bottom: 5px;
 }

@@ -8,48 +8,41 @@
     margin: 0;
 }
 
-p:first-child{
+h2:first-child{
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 5px;
 }
 
-.imagens .rome,
-.imagens .boats,
-.imagens .sand-and-sea,
-.imagens .starry-night{
+.inicial{
+    display: flex;
+    justify-content: center;  
+}
+
+.pinturas .quadro img{
     width: 335px;
     height: 431px;
-    background-position: center;
-    background-size: cover;
 }
 
-.imagens .rome{
-    background-image: url(../images/6.jpg);
-}
-
-.imagens .boats{
-    background-image: url(../images/3.jpg);
-}
-
-.imagens .sand-and-sea{
-    background-image: url(../images/4.jpg);
-}
-
-.imagens .starry-night{
-    background-image: url(../images/5.jpg);
-}
-
-.imagens{
+.pinturas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     top: 129px;
     position: relative;
+    gap: 19px;
 }
 
-.imagens p{
-    left: 26px;
-    top: 328px;
-    position: relative;
+.pinturas h2, .pinturas p{
+    display: flex;
+    position: absolute;
+}
+
+.pinturas h2{
+    margin-left: 26px;
+    margin-top: 328px;
+}
+
+.pinturas p{
+    margin-left: 26px;
+    margin-top: 368px;
 }
